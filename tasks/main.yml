@@ -1,0 +1,7 @@
+---
+
+- name: Download certificate file
+  get_url: url={{ certificate_url }} dest=/tmp/trust_me.pem
+
+- name: Install and trust the certificate
+  shell: /usr/bin/security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain /tmp/trust_me.pem
