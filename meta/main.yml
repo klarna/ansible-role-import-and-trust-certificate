@@ -3,7 +3,7 @@ galaxy_info:
   author: Guy Rozen
   description: Ansible role to import PEM certificates so that they are always trusted on OSX. Part of Klarna's setup when using Superlumic.
   license: Apache 2.0
-  min_ansible_version: 1.6
+  min_ansible_version: 1.9
   platforms:
     - name: Darwin
       versions:
