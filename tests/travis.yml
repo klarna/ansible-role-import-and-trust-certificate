@@ -6,4 +6,4 @@
     - ansible-role-import-and-trust-certificate
 
   vars:
-    certificate_url: something
+    certificate_url: https://raw.githubusercontent.com/klarna/ansible-role-import-and-trust-certificate/master/sample_certificate.pem
