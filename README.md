@@ -15,6 +15,13 @@ certificate can be obtained. See below.
 certificate_url: http://placewithcerts.com/certificate.pem
 ```
 
+Additionally, you may set a variable depicting whether or not SSL certificates
+are to be validated (defaults to "yes"):
+
+```yaml
+validate_ssl: no
+```
+
 # Usage
 
 Just use this as you would any Ansible role.
